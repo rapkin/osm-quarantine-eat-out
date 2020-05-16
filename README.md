@@ -2,6 +2,8 @@
 
 ![Places in Ukraine](/preview.jpg)
 
+[Visualization example with aspectumapp](https://aspectum.com/app/maps/shared/d7f1a4ff-d75d-42b0-b320-c8d0a3c25250?theme=dark)
+
 __Main idea__: use OSM data about pubs/restaurants/etc ([amenity in OSM](https://wiki.openstreetmap.org/wiki/Key:amenity)) to display places which you can visit on quarantine.
 By law in Ukraine you can visit places with outdoor seatings (which marked in OSM as [outdoor_seating=yes](https://wiki.openstreetmap.org/wiki/Key:outdoor_seating)).
 Feel free to reuse this code for your own purpose.
