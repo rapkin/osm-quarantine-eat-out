@@ -3,7 +3,7 @@
 ![Places in Ukraine](/preview.jpg)
 
 __Main idea__: use OSM data about pubs/restaurants/etc ([amenity in OSM](https://wiki.openstreetmap.org/wiki/Key:amenity)) to display places which you can visit on quarantine.
-By law in Ukraine you can visit places with outdor seatings (which marked in OSM as [outdoor_seating=yes](https://wiki.openstreetmap.org/wiki/Key:outdoor_seating)).
+By law in Ukraine you can visit places with outdoor seatings (which marked in OSM as [outdoor_seating=yes](https://wiki.openstreetmap.org/wiki/Key:outdoor_seating)).
 Feel free to reuse this code for your own purpose.
 
 In this project I used [osm2geojson](https://github.com/aspectumapp/osm2geojson) to conver OSM data to GeoJSON.
