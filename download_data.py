@@ -233,6 +233,8 @@ def get_outdoor_seating_nodes(id):
 
     geojson_data = json2geojson(data, filter_used_refs=False)
     geojson_data = get_features_inside_shape(geojson_data, border_shape)
+    for feature in geojson_data['features']:
+        feature['properties']['name'] = feature['properties']['tags'].get('name', 'noname')
     save_data(geojson_data, file)
     return geojson_data
 
